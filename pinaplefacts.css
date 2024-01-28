@@ -1,0 +1,61 @@
+body {
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+nav li {
+  border-right: 1px solid black;
+  border-width: 1px;
+  float: left;
+  list-style-type: none;
+}
+
+.navigationbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-bottom: 10;
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 178px;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+}
+ul {
+  list-style-type: circle;
+  padding: -20px -20px;
+  padding-bottom: 0px;
+  font-size: 35px;
+}
+.hero {
+  border: solid 0px rgb(255, 97, 255);
+  background-color: rgb(255, 131, 255);
+  opacity: 0.75;
+  width: 100%;
+}
+
+ul.factlist {
+  font-size: 5 px;
+  color: rgb(0, 0, 0);
+}
+
+video {
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+a:hover {
+  background-color: rgb(69, 69, 62);
+  background-image: none;
+}
